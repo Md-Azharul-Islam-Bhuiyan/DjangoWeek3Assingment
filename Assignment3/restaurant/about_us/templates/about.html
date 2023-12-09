@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div
+class="about_container col-12 d-lg-flex align-items-center"
+>
+<div class="cols-12 col-lg-6 p-3 rounded">
+  <img
+    class="w-100 text-center rounded"
+    src="{% static 'images/restaurant_about.jpg' %}"
+    alt="banner image"
+  />
+</div>
+<div class="cols-12 col-lg-6 text-center ">
+    <h3>Delicious First Food in Restaura</h3>
+    <p>Welcome to <strong>Restaura</strong>, where culinary excellence meets warm hospitality! At <strong>Restaura</strong>, we are more than just a restaurant; we are a gastronomic journey that celebrates flavors, traditions, and the joy of sharing a great meal.</p>
+  </div>
+</div>
+{% endblock  %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %} 
+{% load static %} 
+{% block content %}
+
+<div
+  class="banner_container col-12 d-lg-flex align-items-center"
+  style="width: 100%; height: 120vh; background: rgb(178, 217, 233)"
+>
+  <div class="text-center cols-12 col-lg-6 ">
+    <h1>Welcome to Restaura</h1>
+    <h2>Delicious First Food</h2>
+    <p style="padding: 10px;">
+      Indulge your senses in a symphony of flavors at <strong>Restaura</strong>, where every dish 
+      tells a story and every meal is a celebration.
+    </p>
+  </div>
+  <div class="cols-12 col-lg-6 p-3">
+    <img
+      class="w-100 text-center"
+      src="{% static 'images/banner2.png' %}"
+      alt="banner image"
+    />
+  </div>
+</div>
+
+{% endblock %}
